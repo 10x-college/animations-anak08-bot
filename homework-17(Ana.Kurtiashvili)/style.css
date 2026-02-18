@@ -59,6 +59,7 @@ header {
   color: #b3b3b2;
   justify-content: center;
   align-items: center;
+  transition: background-color 1s ease;
 }
 
 .product-link {
@@ -70,6 +71,7 @@ header {
   color: #b3b3b2;
   justify-content: center;
   align-items: center;
+  transition: background-color 1s ease;
 }
 
 .cart-icon-link {
@@ -668,14 +670,12 @@ header {
 .home-link:hover{
   background-color: #1a1a1a;
   color: #ffffff;
-  transition: background-color 1s ease;
   transform: scale(1.1);
 }
 
 .product-link:hover {
   background-color: #1a1a1a;
   color: #ffffff;
-   transition: background-color 1s ease;
   transform: scale(1.1);
 }
 
