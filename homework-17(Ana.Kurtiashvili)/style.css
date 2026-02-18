@@ -668,11 +668,15 @@ header {
 .home-link:hover{
   background-color: #1a1a1a;
   color: #ffffff;
+  transition: background-color 1s ease;
+  transform: scale(1.1);
 }
 
 .product-link:hover {
   background-color: #1a1a1a;
   color: #ffffff;
+   transition: background-color 1s ease;
+  transform: scale(1.1);
 }
 
 .cart-icon-link:hover {
@@ -683,7 +687,7 @@ header {
 .contact-link-header:hover{
   transition: transform 1s linear 0s;
   background-color: #676665;
-  transform: rotate(5deg);
+  transform: rotate(2deg);
 }
 
 .people a:hover {
